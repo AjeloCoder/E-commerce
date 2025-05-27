@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './components/NavBar.jsx';
 import ItemListContainer from './components/ItemListContainer.jsx';
-import { productsData } from './data/productsData.js'; // <--- 1. IMPORTAMOS LOS DATOS
+import { productsData } from './data/productsData.js'; 
 import './App.css';
 
 function App() {
@@ -11,13 +11,11 @@ function App() {
     <div className="App">
       <NavBar />
       <main className="main-content">
-        {/* 2. PASAMOS LOS DATOS DE PRODUCTOS AL ITEMLISTCONTAINER */}
         <ItemListContainer
           greeting={welcomeMessage}
           products={productsData}
         />
       </main>
-      {/* Podrías añadir un Footer aquí más adelante */}
     </div>
   );
 }

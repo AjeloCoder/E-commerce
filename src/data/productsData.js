@@ -72,16 +72,6 @@ export const productsData = [
     image: "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg"
   },
   {
-    id: 9,
-    name: "Smartwatch Fitness",
-    category: "ofertas", // Podría ser electrónica también, pero para el ejemplo
-    price: 150.00,
-    oldPrice: 199.00, // Para mostrar una oferta
-    stock: 22,
-    description: "Reloj inteligente con seguimiento de actividad y notificaciones.",
-    image: "https://fakestoreapi.com/img/71L مزید-features-than-you-can-shake-a-stick-at-lg.jpg" // Imagen no es de smartwatch pero es para ejemplo
-  },
-  {
     id: 10,
     name: "Auriculares Inalámbricos Pro",
     category: "electronica",

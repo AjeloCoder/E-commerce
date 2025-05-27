@@ -1,5 +1,5 @@
 import React from 'react';
-import CartWidget from './CartWidget.jsx'; // Importamos CartWidget con .jsx
+import CartWidget from './CartWidget.jsx';
 import './NavBar.css';
 import logoImage from '../assets/logo-alejo.png';
 
@@ -8,12 +8,11 @@ const NavBar = () => {
   return (
      <nav className="navbar">
       <div className="navbar-brand">
-        {/* 2. USA LA IMAGEN IMPORTADA EN UN TAG <img> */}
-        <a href="https://github.com/AjeloCoder/entrega2-bermudez" className="navbar-logo-link"> {/* Envolvemos la imagen en un enlace */}
+        <a href="https://github.com/AjeloCoder/entrega2-bermudez" className="navbar-logo-link">
           <img
             src={logoImage}
             alt="Logo Alejo Tienda"
-            className="navbar-logo-image" // Una clase para darle estilo si es necesario
+            className="navbar-logo-image"
           />
         </a>
       </div>

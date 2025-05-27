@@ -1,8 +1,8 @@
 import React from 'react';
-import Item from './Item.jsx'; // Importamos el nuevo componente Item
-import './Item.css'; // Crearemos este archivo para los estilos del contenedor
+import Item from './Item.jsx'; 
+import './Item.css'; 
 
-// Recibimos la prop "greeting" y ahora también "products"
+
 const ItemListContainer = ({ greeting, products }) => {
   return (
     <div className="item-list-container-main">
