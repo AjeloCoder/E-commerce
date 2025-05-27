@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50 ;
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand .navbar-logo-link {
+  display: inline-block; 
+}
+
+.navbar-brand .navbar-logo-image {
+  height: 80px; 
+  width: auto;   
+  display: block;
+}
+
+.navbar-brand .navbar-logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #61DAFB;
+  text-decoration: none;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin-left: 20px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  background-color: #555;
+}
+
+.navbar-cart .cart-widget {
+  font-size: 1.5em;
+  cursor: pointer;
+}
