@@ -9,7 +9,7 @@ const NavBar = () => {
      <nav className="navbar">
       <div className="navbar-brand">
         {/* 2. USA LA IMAGEN IMPORTADA EN UN TAG <img> */}
-        <a href="/" className="navbar-logo-link"> {/* Envolvemos la imagen en un enlace */}
+        <a href="https://github.com/AjeloCoder/entrega2-bermudez" className="navbar-logo-link"> {/* Envolvemos la imagen en un enlace */}
           <img
             src={logoImage}
             alt="Logo Alejo Tienda"
